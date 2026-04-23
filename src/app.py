@@ -265,7 +265,10 @@ def rag_query(query, history, k=4):
     msgs.append({"role": "user", "content":
         f"Context from the MSADS website:\n\n{ctx}\n\n"
         f"Question: {query}\n\n"
-        "Give a thorough answer using bullet points where helpful. "
+        "Answer in a natural, conversational tone as an AI assistant. "
+        "Do NOT say phrases like 'Based on Source'. "
+        "Start with a short summary, then use bullet points if helpful. "
+        "Only use information from the context. "
         "End with 3 follow-up questions as: FOLLOWUPS: Q1 | Q2 | Q3"
     })
 
