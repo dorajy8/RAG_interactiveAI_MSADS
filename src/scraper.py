@@ -29,7 +29,7 @@ SUBPAGES = [
     "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-project-archive/",
     "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students/",
     "https://datascience.uchicago.edu/explore-the-ms-ads-campus/",
-],
+]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; RAG-research-bot/1.0)"
