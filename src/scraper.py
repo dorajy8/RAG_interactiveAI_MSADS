@@ -23,6 +23,12 @@ SUBPAGES = [
     "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
     "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/",
     "https://applieddatascience.psd.uchicago.edu/academics/curriculum/",
+    "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff/",
+    "https://datascience.uchicago.edu/education/masters-programs/online-program/",
+    "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/",
+    "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-project-archive/",
+    "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/our-students/",
+    "https://datascience.uchicago.edu/explore-the-ms-ads-campus/",
 ]
 
 HEADERS = {
