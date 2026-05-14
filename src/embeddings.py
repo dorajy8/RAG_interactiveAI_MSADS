@@ -5,9 +5,9 @@ import json, pathlib
 from typing import List, Dict, Tuple
 from sentence_transformers import SentenceTransformer
 
-CHUNK_SIZE   = 512
-CHUNK_OVERLAP = 64
-MODEL_NAME   = "sentence-transformers/all-MiniLM-L6-v2"
+CHUNK_SIZE   = 1500
+CHUNK_OVERLAP = 100
+MODEL_NAME   = "sentence-transformers/all-mpnet-base-v2"
 
 
 def chunk_text(text: str, chunk_size: int = CHUNK_SIZE,

@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 
 COLLECTION_NAME = "msads_knowledge_base"
 PERSIST_DIR     = "data/chroma_db"
-MODEL_NAME      = "sentence-transformers/all-MiniLM-L6-v2"
+MODEL_NAME      = "sentence-transformers/all-mpnet-base-v2"
 DEFAULT_TOP_K   = 4
 
 class MSADSVectorStore:
